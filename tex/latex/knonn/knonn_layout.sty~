@@ -40,7 +40,7 @@
 
 %Paramètres listing code
 \lstset{
-%language=Python,%
+language=Python,%
 showstringspaces=false,%
 basicstyle=\normalsize\ttfamily,%
 keywordstyle=\color{DarkRed},%
