@@ -1,0 +1,41 @@
+\documentclass[a4paper,french,titlepage]{article}
+\usepackage{knonn_layout}
+
+\title{
+  \begin{minipage}\linewidth
+    \flushright\bfseries\sffamily
+    \Huge GROSTITRE
+    \vskip3pt
+    \LARGE SOUSTITRE \\
+  \end{minipage}
+}
+
+%Entete
+\renewcommand{\headrulewidth}{1pt}
+%\fancyhead[C]{\textbf{page \thepage}}
+\fancyhead[R]{TEXTE}
+\fancyhead[L]{\MOI}
+
+%Pied de page
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[C]{}
+\fancyfoot[L]{TEXTE}
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+%Alignement a droite du titre (+ parametres dans \title)
+\maketitle
+
+%Table des matières (Sommaire)
+\tableofcontents
+\newpage
+
+%Corps du document
+\section{Section 1}
+\subsection{Subs 1}
+Contenu
+\begin{lstlisting}
+code
+\end{lstlisting}
+
+\end{document}
