@@ -68,7 +68,7 @@ extendedchars=false,%
       \rule{160mm}{.1pt}
       \vspace{-5ex}
     \end{flushleft}
-        {\large\@author \hfill \@date}
+        {\@author \hfill \@date}
         \vfill\null
   \end{titlepage}
 }
