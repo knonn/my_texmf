@@ -4,7 +4,7 @@ First of all, thank you to groolot for his script "create_latex_project"
 See him at http://www.groolot.net or https://github.com/groolot
 
 ## Install
-To install these templates, just clone this repository in your home and rename 'my_texmf' to 'texmf'
+To install these templates, just clone this repository in your home dir and rename 'my_texmf' to 'texmf'
 
 After that, you juste have to update your package database with this command line :
 
