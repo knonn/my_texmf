@@ -11,7 +11,7 @@ After that, you juste have to update your package database with this command lin
 `sudo texhash`
 
 ## How to use
-To use it, just paste on the top of a new LaTeX document this line :
+To use it, just paste this line on the top of a new LaTeX document :
 
 `\usepackage{knonn_layout}`
 
