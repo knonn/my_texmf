@@ -21,4 +21,6 @@ To use the "create_latex_project" script, you juste have to do this :
 
 `~/texmf/tex/latex/knonn/create_latex_project -e ~/destination_folder`
 
+By the way, you can add an alias to this command.
+
 Enjoy!
