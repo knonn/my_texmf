@@ -1,7 +1,17 @@
 \ProvidesPackage{glossaire_perso}
 \usepackage{glossaries}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage{ifxetex}
+
+\ifxetex
+    \usepackage{fontspec}
+    \usepackage{xunicode}
+    \usepackage{xltxtra}
+    \usepackage{polyglossia}
+\else
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage[french]{babel}
+\fi
 
 \newacronym{NLB}{NLB}{Network Load Balancing}
 \newacronym{PSSL}{PSSL}{Pôle Santé Sarthe et Loire}
@@ -9,3 +19,15 @@
 \newacronym{VPN}{VPN}{Virtual Private Network}
 \newacronym{IP}{IP}{Internet Protocol}
 \newacronym{TSE}{TSE}{Terminal Server}
+\newacronym{AD}{AD}{Active Directory}
+\newacronym{DHCP}{DHCP}{Dynamic Host Configuration Protocol}
+\newacronym{DNS}{DNS}{Domain Name Server}
+\newacronym{CPS}{CPS}{Carte Professionnelle de Santé}
+\newacronym{SSID}{SSID}{Service Set IDentifier}
+\newacronym{RAP}{RAP}{Remote Access Point}
+\newacronym{MCO}{MCO}{Médecine Chirurgie Obstétrique}
+\newacronym{SSR}{SSR}{Soins de Suite et de Réadaptation}
+\newacronym{EHPAD}{EHPAD}{Etablissement d'Hébergement pour les Personnes Agées Dépendantes}
+\newacronym{IFSI}{IFSI}{Institut de Formation en Soins Infirmiers}
+\newacronym{IFAS}{IFAS}{Institut de Formation d'Aide Soignant}
+\newacronym{FDV}{FDV}{Foyer De Vie}

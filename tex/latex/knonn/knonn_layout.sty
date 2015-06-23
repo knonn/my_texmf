@@ -3,9 +3,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ProvidesPackage{knonn_layout}
 \usepackage{glossaire_perso}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[french]{babel}
 \usepackage[hidelinks]{hyperref}%Package lien dans le sommaire
 \usepackage[margin=1in]{geometry}
 \usepackage{listings}
@@ -14,6 +11,18 @@
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{glossaries}
+\usepackage{ifxetex}
+
+\ifxetex
+    \usepackage{fontspec}
+    \usepackage{xunicode}
+    \usepackage{polyglossia}
+    \usepackage{xltxtra}
+\else
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage[french]{babel}
+\fi
 
 %Date time
 \usepackage{datetime}
