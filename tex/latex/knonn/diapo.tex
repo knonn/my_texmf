@@ -16,20 +16,29 @@
     \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex]{palette quaternary}%
     \insertsectionnavigationhorizontal{\paperwidth}{}{\hskip0pt plus1filll}
     \end{beamercolorbox}%
-  }
-}
+    }
+    }
 
 % TITLE PAGE NUMEROTATION
 \let\otp\titlepage
-\renewcommand{\titlepage}{\otp\addtocounter{framenumber}{-1}}
+\renewcommand{\titlepage}{\otp\addtocounter{framenumber}{-2}}
 
 %PAGE TITRE
-\title[Rapport d'activités]{Rapport d'activités\\Pôle Santé Sarthe et Loire}
+\title[SUBSTITUT TITRE]{TITRE}
 \author{Romain Besland}
-\institute[]{Stage du 26 Mai au 26 Juin 2015}
-\date{30 Juin 2015}
+\institute[SUBSTITUT INSTUTUTE]{INSTITUTE}
+\date{DATE}
 
 %CORPS
 \begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Sommaire}
+\tableofcontents
+\end{frame}
 
 \end{document}
