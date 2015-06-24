@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+  echo "$0 fichier_destination"
+  exit 1
+elif [ -e "$1.tex" ]; then
+  echo "le fichier $1.tex existe déjà"
+  exit 1
+else
+  cp ~/texmf/tex/latex/knonn/diapo.tex ./$1.tex
+  exit 0
+fi

@@ -15,7 +15,7 @@ if [ -e $fichier ]; then
 	makeglossaries "$fichiercut"glo""
 	pdflatex $fichier
 	pdflatex $fichier
-    rm -f *.log | rm -f *.aux | rm -f *.toc | rm -f *.glg | rm -f *.glo | rm -f *.gls | rm -f *.ist | rm -f *.out
+    rm -f *.log | rm -f *.aux | rm -f *.toc | rm -f *.glg | rm -f *.glo | rm -f *.gls | rm -f *.ist | rm -f *.out | rm -f *.nav | rm -f *.snm
     evince $fichiercut"pdf"& > /dev/null
 	exit 0
 else

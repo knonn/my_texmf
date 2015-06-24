@@ -1,0 +1,35 @@
+\documentclass[handout]{beamer}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Madrid}
+\useoutertheme{infolines}
+\hypersetup{pdfpagemode=FullScreen}
+
+% BEAMER MODIFS
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\setbeamertemplate{headline}{%
+\leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex]{palette quaternary}%
+    \insertsectionnavigationhorizontal{\paperwidth}{}{\hskip0pt plus1filll}
+    \end{beamercolorbox}%
+  }
+}
+
+% TITLE PAGE NUMEROTATION
+\let\otp\titlepage
+\renewcommand{\titlepage}{\otp\addtocounter{framenumber}{-1}}
+
+%PAGE TITRE
+\title[Rapport d'activités]{Rapport d'activités\\Pôle Santé Sarthe et Loire}
+\author{Romain Besland}
+\institute[]{Stage du 26 Mai au 26 Juin 2015}
+\date{30 Juin 2015}
+
+%CORPS
+\begin{document}
+
+\end{document}
