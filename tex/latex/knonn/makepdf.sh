@@ -16,6 +16,8 @@ if [ -e $fichier ]; then
 	pdflatex $fichier
     rm -f *.log | rm -f *.aux | rm -f *.toc | rm -f *.glg | rm -f *.glo | rm -f *.gls | rm -f *.ist | rm -f *.out | rm -f *.nav | rm -f *.snm
     evince $fichiercut"pdf"& > /dev/null
+	sleep 1s
+	clear
 	exit 0
 else
 	echo "Le fichier n'existe pas"
