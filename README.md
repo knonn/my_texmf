@@ -1,7 +1,4 @@
 # My TEXMF templates
-First of all, thank you to groolot for his script "create_latex_project"
-
-See him at http://www.groolot.net or https://github.com/groolot
 
 ## Install
 To install these templates, just clone this repository in your home dir and rename 'my_texmf' to 'texmf'
