@@ -16,7 +16,7 @@ You can find on the modele.tex file the LaTeX template that you will use for you
 
 To use the "create_latex_project" script, you juste have to do this :
 
-`~/texmf/tex/latex/knonn/create_latex_project -e ~/destination_folder`
+`~/texmf/tex/latex/knonn/create_latex_project ~/destination_file.tex`
 
 By the way, you can add an alias to this command.
 
